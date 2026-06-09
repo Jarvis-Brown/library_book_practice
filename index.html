@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Library</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div class="page">
+            <button class="create_book_btn">Add New Book</button>
+            <form action="/index.html" method="post">
+                <div>
+                    <div>
+                        <label for="book_title">Book Title:</label>
+                        <input
+                            type="text"
+                            name="book_title"
+                            id="book_title"
+                            placeholder="Book Title"
+                            required
+                        />
+                    </div>
+                    <div>
+                        <label for="author_name">Author Name:</label>
+                        <input
+                            type="text"
+                            name="author_name"
+                            id="author_name"
+                            placeholder="Author Name"
+                            required
+                        />
+                    </div>
+                    <div>
+                        <label for="pages">How many pages?</label>
+                        <input
+                            type="number"
+                            name="book_pages"
+                            id="book_pages"
+                            placeholder="0"
+                            required
+                        />
+                    </div>
+                    <div class="form_buttons">
+                        <button type="submit" class="add_book_btn">
+                            Add Book
+                        </button>
+                        <button type="button" class="cancel">Cancel</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <button class="create_book_btn">Add New Book</button>
+        <form action="/index.html" method="post">
+            <div>
+                <div>
+                    <label for="book_title">Book Title:</label>
+                    <input
+                        type="text"
+                        name="book_title"
+                        id="book_title"
+                        placeholder="Book Title"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="author_name">Author Name:</label>
+                    <input
+                        type="text"
+                        name="author_name"
+                        id="author_name"
+                        placeholder="Author Name"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="pages">How many pages?</label>
+                    <input
+                        type="number"
+                        name="book_pages"
+                        id="book_pages"
+                        placeholder="0"
+                        required
+                    />
+                </div>
+                <div class="form_buttons">
+                    <button type="submit" class="add_book_btn">Add Book</button>
+                    <button type="button" class="cancel">Cancel</button>
+                </div>
+            </div>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
